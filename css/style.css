@@ -8,29 +8,10 @@ body {
     border: solid #e58753;
     margin: 5%;
 }
- header img {
-    width: 100%;
-    padding: 15%;
- }
 
- header {
-    margin: 10%;
-    border-radius: 1.5em;
-    background-color: #e5d053;
-    opacity: 0.9;
- }
+.stappen {
+    display: flex;
 
-main h1{
-    padding-top: 31%;
-    padding-bottom: 40%;
-    padding-left: 12%;
-    padding-right: 12%;
-    font-size: large;
-    text-align: center;
-    font-family: jost;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2%;
 }
 
 footer {
@@ -65,7 +46,7 @@ a:active {
 }
 
 /* index specifiek */
-main div {
+.homepagina {
     align-items: center;
     background-image: url(/images-links/achtergrond-statiegeldbak.png);
     background-repeat: no-repeat;
@@ -74,18 +55,82 @@ main div {
     opacity: 0.8;
 }
 
+.logohome img {
+    width: 100%;
+    padding: 15%;
+}
+
+.logohome {
+    margin: 10%;
+    border-radius: 1.5em;
+    background-color: #e5d053;
+    opacity: 0.9;
+}
+
+.homepagina h1{
+    padding-top: 31%;
+    padding-bottom: 40%;
+    padding-left: 12%;
+    padding-right: 12%;
+    font-size: large;
+    text-align: center;
+    font-family: jost;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+}
+
 /* hoe-te-gebruiken specifiek */
 div {
     display: flex;
+    align-items: center;
  }
 
- div img{
+div img{
+    padding-right: 5%;
+    width: 100%;
+
+ }
+
+.kaart {
+    width: 100%;
+ }
+ 
+/* header subpagina's */
+.subpaginas {
+    background-color: #e58753;
+    margin-bottom: 20%;
+ }
+ 
+.subpaginas img {
+    display: flex;
+    width: 23%;
+    padding-left: 5%;
+    align-items: center;
+}
+
+main article h1 {
+    width: 50%;
+    margin-bottom: 20%;
+    border-bottom: solid black;
+    font-size: large;
+    text-align: center;
+    font-family: jost;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+}
+
+main article section img {
+    width: 40%;
+}
+
+section div p {
+    font-size: 1.6em;
+    font-family: jost;
+}
+
+div.stappen {
     padding: 15%;
-    width: 100%;
-    height: 50vh;
-
- }
-
- .kaart {
-    width: 100%;
- }
+    margin-bottom: 10%;
+}
